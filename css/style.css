@@ -1,0 +1,22 @@
+body{
+    min-height: 120vh;
+}
+header{
+    position: fixed;
+    z-index: 2000;
+    background-color: whitesmoke;
+}
+#search::placeholder{
+    padding-left: 20px;
+}
+.bi-search{
+    position: absolute;
+    left:23px ;
+    top: 8px;
+}
+button{
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    font-weight: 300;
+}
